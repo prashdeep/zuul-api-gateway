@@ -1,0 +1,8 @@
+
+server:
+  port: 5555
+zuul:
+  prefix: /api
+  routes:
+    assetmgmt: /asset/**
+    organizationservice: /org/**
